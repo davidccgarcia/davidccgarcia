@@ -1,3 +1,17 @@
-header {
-    background-color: pink;
-}
+/*
+reglas
+selectores
+declaraciones
+propiedades
+valores
+*/
+
+/* selector de etiqueta. Ejemplo: section - header - article - nav */
+/*  header {
+        background-color: pink;
+    } */
+/* selector descendente. */
+/* body header div nav ol li a { } */
+
+/* selector de clase. Ejemplo: .container - .header - .btn */
+/* selector de id. Ejemplo: #portfolio */
