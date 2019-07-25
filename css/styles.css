@@ -118,6 +118,7 @@ h1 strong {
     display: flex;
     flex-wrap: wrap;
     /* flex-direction: column; */
+    justify-content: space-around;
 }
 
 .box {
@@ -126,5 +127,5 @@ h1 strong {
     margin: 5px;
     border: 1px solid red;
     flex-shrink: 0;
-    align-items: flex-end;
+    /* align-items: flex-end; */
 }
