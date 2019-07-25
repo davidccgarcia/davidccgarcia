@@ -103,15 +103,39 @@ h1 strong {
 .header {
     background-color: #1b2127;
     color: #fff;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    height: 90px;
+}
+
+.header nav {
+    height: inherit;
+    display: flex;
 }
 
 .header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    height: inherit;
+    padding: 0 10px;
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
 .header a {
     color: #fff;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: inherit;
 }
 
 .flexbox {
