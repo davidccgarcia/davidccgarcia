@@ -25,6 +25,7 @@ background gris = #1b2127 */
 /* celeste = #026fff */
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
 }
 
 nav ol {
@@ -61,6 +62,10 @@ h1 strong {
     background-position-x: right;
 }
 
+.portfolio {
+    background-color: #fafafa;
+}
+
 .project {
     /* border: tamaño tipo estilo; */
     /* border-top: 10px solid red;
@@ -73,11 +78,14 @@ h1 strong {
     border-top-style: solid; */
     border: 1px solid gray;
     border-radius: 10px;
+    background-color: #fff;
     /* border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px; */
+    margin: 10px;
     margin-bottom: 15px;
+    padding: 50px;
 }
 
 .project-details {
